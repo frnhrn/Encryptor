@@ -22,7 +22,7 @@ echo "Username: $username ; Password: $password" > ~/Desktop/$firstname/credenti
 
 echo "We are now starting the encryption, do you want to generate a password for your ZIP ? (Y/n)"
 
-read -s reponse
+read reponse
 
 
 if  [[ "$reponse" == "y" ]]
